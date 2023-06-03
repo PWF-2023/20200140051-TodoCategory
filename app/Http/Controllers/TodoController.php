@@ -44,6 +44,7 @@ class TodoController extends Controller
         // $todo->user_id = auth()->user()->id;
         // $todo->save();
 
+        
         // Query Builder way
         // DB::table('todos')->insert([
         //     'title' => $request->title,
