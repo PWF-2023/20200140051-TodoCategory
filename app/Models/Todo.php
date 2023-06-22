@@ -12,6 +12,13 @@ class Todo extends Model
         'is_complete' => 'boolean',
     ];
 
+    protected $fillable = [
+        'title',
+        'user_id',
+        'category_id',
+        'is_complete'
+    ];
+
     public function user()
     {
         return $this->belongsTo(User::class);
